@@ -3,10 +3,7 @@
 INSERT INTO estudiantes
 (nombre, genero, edad, promedio, altura, fecha_ingreso, hora_ingreso,
  fecha_hora_registro, duracion_tests, analisis_perfil, activo)
-VALUES
-
--- 1 - 10
-('Ana Martinez', 'F', 19, 91.50, 1.62, '2026-01-08', '07:30:00',
+VALUES('Ana Martinez', 'F', 19, 91.50, 1.62, '2026-01-08', '07:30:00',
  '2026-01-08 07:35:21', INTERVAL '18 minutes 32 seconds',
  'Estudiante responsable, participativa y con excelente desempeño académico.', TRUE),
 
@@ -46,7 +43,6 @@ VALUES
  '2026-02-01 13:06:31', INTERVAL '35 minutes 12 seconds',
  'Presenta dificultades en algunos fundamentos, pero muestra interés por mejorar.', TRUE),
 
--- 11 - 20
 ('Camila Rodriguez', 'F', 21, 89.30, 1.55, '2026-02-03', '08:25:00',
  '2026-02-03 08:28:17', INTERVAL '19 minutes 08 seconds',
  'Perfil equilibrado entre habilidades técnicas y sociales.', TRUE),
@@ -87,7 +83,6 @@ VALUES
  '2026-02-25 12:35:22', INTERVAL '26 minutes 30 seconds',
  'Necesita mejorar la comprensión de conceptos teóricos.', TRUE),
 
--- 21 - 30
 ('Isabella Ortega', 'F', 19, 94.70, 1.63, '2026-03-01', '07:25:00',
  '2026-03-01 07:29:31', INTERVAL '13 minutes 47 seconds',
  'Excelente estudiante, muy participativa y con pensamiento crítico.', TRUE),
@@ -128,7 +123,6 @@ VALUES
  '2026-03-22 10:49:38', INTERVAL '22 minutes 08 seconds',
  'Buen desempeño y capacidad para resolver problemas complejos.', TRUE),
 
--- 31 - 40
 ('Mariana Pineda', 'F', 20, 90.90, 1.56, '2026-03-25', '07:55:00',
  '2026-03-25 07:58:29', INTERVAL '14 minutes 18 seconds',
  'Muy buena estudiante, destaca por su disciplina y creatividad.', TRUE),
@@ -169,7 +163,6 @@ VALUES
  '2026-04-18 09:54:19', INTERVAL '23 minutes 52 seconds',
  'Profesional con experiencia y capacidad para trabajar bajo presión.', TRUE),
 
--- 41 - 50
 ('Claudia Espinoza', 'F', 22, 94.10, 1.61, '2026-04-20', '07:30:00',
  '2026-04-20 07:34:12', INTERVAL '13 minutes 25 seconds',
  'Excelente rendimiento académico y gran compromiso.', TRUE),
@@ -210,7 +203,6 @@ VALUES
  '2026-05-12 15:04:39', INTERVAL '25 minutes 22 seconds',
  'Profesional con experiencia, necesita actualizar algunos conocimientos.', TRUE),
 
--- 51 - 60
 ('Adriana Barrios', 'F', 21, 93.60, 1.60, '2026-05-15', '07:50:00',
  '2026-05-15 07:53:31', INTERVAL '12 minutes 42 seconds',
  'Excelente estudiante y muy comprometida con sus objetivos.', TRUE),
@@ -251,7 +243,6 @@ VALUES
  '2026-06-08 10:14:55', INTERVAL '24 minutes 05 seconds',
  'Buen perfil profesional, orientado a resolver problemas reales.', TRUE),
 
--- 61 - 70
 ('Daniela Marroquin', 'F', 18, 99.10, 1.55, '2026-06-10', '07:00:00',
  '2026-06-10 07:03:19', INTERVAL '08 minutes 45 seconds',
  'Rendimiento excepcional y excelente capacidad de aprendizaje.', TRUE),
@@ -292,7 +283,6 @@ VALUES
  '2026-07-03 11:54:57', INTERVAL '22 minutes 48 seconds',
  'Buen perfil profesional, aunque debe mejorar algunos aspectos técnicos.', TRUE),
 
--- 71 - 80
 ('Sara Valdez', 'F', 20, 96.80, 1.60, '2026-07-05', '07:15:00',
  '2026-07-05 07:18:32', INTERVAL '10 minutes 35 seconds',
  'Excelente rendimiento y gran compromiso con el aprendizaje.', TRUE),

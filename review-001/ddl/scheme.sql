@@ -1,6 +1,7 @@
+-- Active: 1788192176443@@127.0.0.1@5432
 -- ======== Ejercicio Review NO.1 de Postgresql ==========
 
-CREATE DATABASE IF NOT EXISTS Review_001;
+CREATE DATABASE Review_001;
 
 CREATE TABLE estudiantes(
   id SERIAL,
